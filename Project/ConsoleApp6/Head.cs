@@ -15,7 +15,10 @@ namespace ConsoleApp6
             Customer customer = new Customer();
 
             Console.WriteLine("Добрый день , прошу вас пройти простую процедуру регистрации");
+
+            Console.WriteLine("Toster");
             Console.WriteLine("Master");
+
 
             Console.WriteLine("Введите Логин");
             customer.Login = Console.ReadLine();
