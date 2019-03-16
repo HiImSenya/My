@@ -15,7 +15,7 @@ namespace ConsoleApp6
             Customer customer = new Customer();
 
             Console.WriteLine("Добрый день , прошу вас пройти простую процедуру регистрации");
-
+            Console.WriteLine("HelloNewFcBrunch");
             Console.WriteLine("Введите Логин");
             customer.Login = Console.ReadLine();
             Console.WriteLine("Введите Пароль");
